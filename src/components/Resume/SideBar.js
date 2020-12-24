@@ -23,25 +23,25 @@ function SideBar() {
                 </div>
                 <Scrollspy id="sidebar-items" className="scrollspy" items={ ['aboutme', 'experience', 'education', 'certifications', 'skills', 'interests', 'volunteer'] } currentClassName="isCurrent">
                     <Nav.Item className="side-item">
-                        <HashLink className="links side-link" smooth to="/resume/#aboutme">About</HashLink>
+                        <HashLink id="sidebar-item-about"className="links side-link" smooth to="/resume/#aboutme">About</HashLink>
                     </Nav.Item>
                     <Nav.Item className="side-item">
-                        <HashLink className="links side-link" smooth to="/resume/#experience">Experience</HashLink>
+                        <HashLink id="sidebar-item-exp" className="links side-link" smooth to="/resume/#experience">Experience</HashLink>
                     </Nav.Item>
                     <Nav.Item className="side-item">
-                        <HashLink className="links side-link" smooth to="/resume/#education">Education</HashLink>
+                        <HashLink id="sidebar-item-ed" className="links side-link" smooth to="/resume/#education">Education</HashLink>
                     </Nav.Item>
                     <Nav.Item className="side-item">
-                        <HashLink className="links side-link" smooth to="/resume/#certifications">Certifications</HashLink>
+                        <HashLink id="sidebar-item-certif" className="links side-link" smooth to="/resume/#certifications">Certifications</HashLink>
                     </Nav.Item>
                     <Nav.Item className="side-item">
-                        <HashLink className="links side-link" smooth to="/resume/#skills">Skills</HashLink>
+                        <HashLink id="sidebar-item-skills" className="links side-link" smooth to="/resume/#skills">Skills</HashLink>
                     </Nav.Item>
                     <Nav.Item className="side-item">
-                        <HashLink className="links side-link" smooth to="/resume/#interests">Interests</HashLink>
+                        <HashLink id="sidebar-item-int" className="links side-link" smooth to="/resume/#interests">Interests</HashLink>
                     </Nav.Item>
                     <Nav.Item className="side-item">
-                        <HashLink className="links side-link" smooth to="/resume/#volunteer">Volunteer Work</HashLink>
+                        <HashLink id="sidebar-item-vol" className="links side-link" smooth to="/resume/#volunteer">Volunteer Work</HashLink>
                     </Nav.Item>
                     <Nav.Item id="last-item">
                         <Link id={"btn-cv"} to={CV} target={"_blank"} rel={"noreferrer"}><Button variant="outline-secondary">Download Resume</Button></Link>

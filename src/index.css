@@ -505,10 +505,41 @@ footer { color: whitesmoke; }
   /* border-style: dotted;
   border-color: yellow; */
 }
-.side-link:hover {
+/* .side-link:hover {
   color: white;
-  background-image: var(--highlight)
+  background-image: var(--highlight);
+} */
+
+/*hover side elements*/
+#sidebar-item-about:hover {
+  color: white;
+  background-image: var(--highlight);
 }
+#sidebar-item-exp:hover {
+    color: white;
+  background-image: var(--highlight-gold);
+}
+#sidebar-item-ed:hover {
+    color: white;
+  background-image: var(--highlight-skyblue);
+}
+#sidebar-item-certif:hover {
+    color: white;
+  background-image: var(--highlight-teal);
+}
+#sidebar-item-skills:hover {
+    color: white;
+  background-image: var(--highlight-red);
+}
+#sidebar-item-int:hover {
+    color: white;
+  background-image: var(--highlight-pink);
+}
+#sidebar-item-vol:hover {
+    color: white;
+  background-image: var(--highlight-blue);
+}
+
 
 #sidebar-wrapper{
   padding: 0 !important;
