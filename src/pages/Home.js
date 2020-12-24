@@ -8,7 +8,7 @@ import Hero from '../components/Hero';
 import Project from './../components/Project';
 import About from '../components/About';
 import Contact from '../components/Contact';
-import Item from './../components/Item';
+// import Item from './../components/Item';
 import Footer from '../components/Footer';
 
 function Home(props) {
@@ -33,9 +33,9 @@ function Home(props) {
             <section className="section-pink" id="contact">
                 <Contact/>
             </section>
-            <section>
+            {/* <section>
                 <Item/>
-            </section>
+            </section> */}
             <Footer/>
         </div>       
     );

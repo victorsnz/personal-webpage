@@ -8,7 +8,7 @@ import Resume   from './pages/Resume';
 import NotFound   from './pages/NotFound';
 import UnderConstruction   from './pages/UnderConstruction';
 // import Blog from './paged/Blog';
-import EightBits   from './pages/8bits';
+//import EightBits   from './pages/8bits';
 
 import './App.css';
 
@@ -60,11 +60,6 @@ class App extends React.Component {
                   />
                   <Route path="/blog" render={() => 
                     <UnderConstruction title={this.state.blog.title} />}
-                  />
-                  <Route path="/8bits" render={() => 
-                    <EightBits title={this.state.home.title} 
-                               subTitle={this.state.home.subTitle}
-                               text={this.state.home.text} />}
                   />
                   <Route component={NotFound}/>
                 </Switch>
