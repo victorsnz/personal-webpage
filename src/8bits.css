@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.bigRoom{
+  width: 100%;
+  min-height: 100vh;
+  background: url(./assets/img/pixel-block.png) left top repeat-y,
+              url(./assets/img/pixel-block.png) right top repeat-y;
+  background-color: black;
+  background-size: 35px 35px;
+  color: white;
+  text-align: center;
+  font-size: large;
+  font-family: 'Press Start 2P';
+}
+
+.rooms {
+height: 520px;
+}
+
+.aWall{
+  width: 100%;
+  height: 35px;
+  background: url(./assets/img/pixel-block.png) left top repeat;
+  background-size: 35px 35px;
+}
+
+.internet{
+  background: url(./assets/img/The_Internet.png) center no-repeat;
+  width: 60px;
+  height: 60px;
+  margin-left: 48%;
+  background-size: 100%;
+}
