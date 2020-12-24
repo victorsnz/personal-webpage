@@ -294,12 +294,6 @@ html, body {
 
 /* Contact Section */
 
-/* .my-contact {
-  width: 70% !important;
-  padding: 3rem 0;
-  background-color: white;
-} */
-
 #contact-link {
   border-width: 2px;
   border-style: solid;
@@ -315,19 +309,6 @@ html, body {
   color: lightpink;
 }
 
-/* #envelope-container {
-  display: flex;
-  justify-content: center;
-  padding-top: 100px;
-  padding-left: 80px;
-} */
-#envelope {
-  color: white;
-}
-#envelope:hover {
-  color: lightpink;
-  background-color: white;
-}
 
 /* .form-elements {
   display: flex;
@@ -423,12 +404,10 @@ footer { color: whitesmoke; }
 }
 
 
-/*////////////// RESUME PAGE ////////////// */
+/* ////////////// RESUME PAGE ////////////// */
 
 .resume {
   padding-left: 0 !important;
-  /* border-style: dotted;
-  border-color: yellow; */
 }
 
 /* Sidebar */
@@ -450,8 +429,6 @@ footer { color: whitesmoke; }
   margin-left: 12px;
   padding-top: 110px;
   text-align: center;
-  /* border-style: dotted;
-  border-color: turquoise; */
 }
 
 #btn-container {
@@ -460,8 +437,6 @@ footer { color: whitesmoke; }
   left: 0;
   padding: 5px 5px;
   color: gray;
-  /* border-style: dotted;
-  border-color: #57A773;  */
 }
 #btn-container:hover { color: #F0F0F0; }
 
@@ -470,13 +445,10 @@ footer { color: whitesmoke; }
   margin-bottom: 20px;
   display: flex;
   justify-content: center;
-  /* border-style: dotted;
-  border-color: hotpink; */
 }
 
 #resume-pic {
   border-radius:50%;
-  /* border: 0.5rem solid rgba(255, 255, 255, 0.2); */
   height:160px;
 }
 
@@ -490,25 +462,16 @@ footer { color: whitesmoke; }
 .side-item {
   width: 100%;
   padding: 6px;
-  /* border-style: dotted; */
 }
 
 #last-item {
   margin: 80px 0 0 0;
-  /* border-style: dotted;
-  border-color: blue; */
 }
 
 .side-link {
   color: #F0F0F0;
   text-transform: uppercase;
-  /* border-style: dotted;
-  border-color: yellow; */
 }
-/* .side-link:hover {
-  color: white;
-  background-image: var(--highlight);
-} */
 
 /*hover side elements*/
 #sidebar-item-about:hover {
