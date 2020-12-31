@@ -5,7 +5,7 @@ import { Row, Col } from 'react-bootstrap';
 function Experience () {
   return(
     <div id="experience" className="resume-sections">
-        <h1 className="resume-title"><span className="highlight-gold">Experience</span></h1>
+        <h1><span className="resume-title highlight-gold">Experience</span></h1>
         <br/>
         <Row>
             <Col md={8}>

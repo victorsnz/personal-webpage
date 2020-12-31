@@ -3,9 +3,9 @@ import React from 'react';
 function Certifications () {
   return(
     <div id={"certifications"} className="resume-sections">
-        <h1 className="resume-title"><span className="highlight-teal">Certifications</span></h1>
+        <h1><span className="resume-title highlight-teal">Certifications</span></h1>
         <br/>
-        <ul>
+        <ul className={"ul-certif"}> 
             <li className={"certif"}>Server side development: NodeJS, Express, MongoDB - Coursera (2020)</li>
             <li className={"certif"}>Scrum Foundations Professional Certificate - CertiProf (2020)</li>
             <li className={"certif"}>Data Bases Professional Course - CódigoFacilito (2020)</li>

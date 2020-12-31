@@ -3,7 +3,7 @@ import React from 'react';
 function Volunteer() {
   return(
     <div id="volunteer" className="resume-sections">
-        <h1 className="resume-title"><span className="highlight-blue">Volunteer Work</span></h1>
+        <h1><span className="resume-title highlight-blue">Volunteer Work</span></h1>
         <br/>
         <h2><a className={"links"} href={"https://afs.org.ar/"} rel={"noreferrer"}>AFS Intercultural Programs</a></h2>
         <br/>

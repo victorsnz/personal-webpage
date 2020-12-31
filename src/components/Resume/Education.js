@@ -5,7 +5,7 @@ import { Row, Col } from 'react-bootstrap';
 function Education () {
   return (
     <div id="education" className="resume-sections">
-        <h1 className="resume-title"><span className="highlight-skyblue">Education</span></h1>
+        <h1><span className="resume-title highlight-skyblue">Education</span></h1>
         <br/>
         <Row>
             <Col md={8}>

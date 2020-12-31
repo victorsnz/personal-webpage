@@ -3,7 +3,7 @@ import React from 'react';
 function Interests() {
   return(
     <div id="interests" className="resume-sections">
-        <h1 className="resume-title"><span className="highlight-pink">Interests</span></h1>
+        <h1><span className="resume-title highlight-pink">Interests</span></h1>
         <br/>
         <p>Apart from development and playing with Arduino boards, there are a bunch of things that I like (in case you want to know me a little more):</p>
         <ul>

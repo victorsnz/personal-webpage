@@ -48,7 +48,7 @@ class Project extends React.Component {
     }
     render(){
         return(
-            <Container fuid={true}>
+            <Container fluid={true}>
             <h1 className="my-title"><span className="highlight-blue">Some Projects</span></h1>
                 <Row className="justify-content-around"> 
                     {this.makeItems(this.state.items)}

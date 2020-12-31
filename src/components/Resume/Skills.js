@@ -24,7 +24,7 @@ import XD from '../../assets/tec-logos/xd.svg';
 function Skills () {
   return(
     <div id={"skills"} className="resume-sections">
-        <h1 className="resume-title"><span className="highlight-red">Skills</span></h1>
+        <h1><span className="resume-title highlight-red">Skills</span></h1>
         <br/>
         <h3>Soft Skills</h3>
         <p className={"web-text-gray"}>Teamwork, Interpersonal Skills, Adaptability/Flexibility, Communication, Problem-Solving, Work-Ethic</p>
