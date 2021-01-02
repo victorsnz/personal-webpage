@@ -11,6 +11,8 @@
 # production
 /build
 
+.firebase
+
 # misc
 .DS_Store
 .env.local
@@ -23,3 +25,7 @@ yarn-debug.log*
 yarn-error.log*
 
 sendgrid.env
+
+# my stuff
+src/API
+src/components/_Contact.js
