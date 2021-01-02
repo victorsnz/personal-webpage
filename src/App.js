@@ -8,9 +8,6 @@ import Resume   from './pages/Resume';
 import NotFound   from './pages/NotFound';
 import UnderConstruction   from './pages/UnderConstruction';
 // import Blog from './paged/Blog';
-//import EightBits   from './pages/8bits';
-
-// import './App.css';
 
 // Fontawesome 
 import { library } from '@fortawesome/fontawesome-svg-core';

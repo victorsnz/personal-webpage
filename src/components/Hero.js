@@ -10,7 +10,6 @@ function Hero(props) {
                     <Col className="my-hero-quote" md={12}>
                         { props.title && <h1 className={"hero-title"}>Hi, I'm <span className={"colors"}>{ props.title }</span></h1> }
                         { props.subTitle && <h2 className={"hero-subtitle"}>{ props.subTitle }</h2> }
-                        {/* { props.text && <h3 className={"hero-text"}>{ props.text }</h3> } */}
                         <h3 className={"my-location"}>
                         <span>
                             <FontAwesomeIcon icon={["fas", "map-marker-alt"]} size={"1x"}/> Corrientes, Argentina 

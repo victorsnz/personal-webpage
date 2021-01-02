@@ -12,16 +12,6 @@ import Photo from '../../assets/img/resume_photo.jpg';
 import CV from '../../assets/pdf/Sanchez_Victor_CV.pdf'
 
 class SideBar extends Component {
-
-    // openSidebar = () => {
-    //     //document.getElementById("my-sidebar").style.display = "block";
-    //     console.log("funciona");
-    // }
-
-    // closeSidebar = () => {
-    //     document.getElementById("my-sidebar").style.display = "none";
-    // }
-
     render() {
         return(
             <Navbar expand={"md"}>
@@ -31,12 +21,10 @@ class SideBar extends Component {
                 <Navbar.Toggle className={"border-0 navbar-dark"} aria-controls={"navbar-toggle"} />
                 <Navbar.Collapse>
             <Nav id={"my-sidebar"} className={"col-md-12 d-md-block sidebar"}>
-                {/* <div className="sidebar-sticky"></div> */}
                 <div id={"sidebar-item-container"}>
                     <Link id={"btn-container"} to={"/"}>
                         <FontAwesomeIcon icon={["fas", "angle-left"]} size={"2x"} title={"Go Back"}/>
                     </Link>
-                    {/* <span className={"close-btn"} onClick={this.closeSidebar}>&times;</span> */}
                     <div id="pic-container">
                         <img id={"resume-pic"} src={Photo} alt="Victor Sanchez" title={"Hello, there!"}/>
                     </div>
@@ -74,5 +62,4 @@ class SideBar extends Component {
     }
     
 }
-// const Sidebar = withRouter(SideBar);
 export default SideBar;

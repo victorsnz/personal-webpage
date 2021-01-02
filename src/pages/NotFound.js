@@ -1,7 +1,5 @@
 import React from 'react';
 
-// import '../8bits.css';
-
 import { Container, Col, Row } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 

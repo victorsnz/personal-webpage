@@ -33,8 +33,6 @@
   margin-bottom: 20px;
   display: inline-flex;
   justify-content: center;
-    /* border-style: dotted;
-  border-color: yellow; */
 }
 
 #resume-pic {
@@ -52,8 +50,6 @@
 .side-item {
   width: 100%;
   padding: 6px;
-  /* border-style: dotted;
-  border-color: green; */
 }
 
 #last-item { margin: 80px 0 0 0; }
@@ -93,9 +89,7 @@
   background-image: var(--highlight-blue);
 }
 
-.scrollspy { 
-  padding: 0px;
-}
+.scrollspy { padding: 0px; }
 
 .isCurrent .side-link { 
   color: white;
@@ -110,17 +104,6 @@
   background-color: #f0f0f0;
   transition: margin .25s ease-out;
 }
-
-/* .burger-btn {
-    display: block;
-    cursor: pointer;
-    position: absolute;
-    top: 0px;
-    left: 30px;
-    font-size: 40px;
-    font-weight: bold;
-    margin-right: 50px;
-  } */
 
 .resume-title {
   text-transform: uppercase;
@@ -208,21 +191,11 @@
     padding: 0px;
     display: flex;
     justify-content: center;
-    /* border-style: dotted;
-    border-color: yellow; */
   }
   #resume-pic {
     border-radius:50%;
     height:130px;
   }
-
-  /* #my-brand {
-    display: initial;
-    width: 75%;
-    text-transform: uppercase;
-    color: whitesmoke;
-    text-align: right;
-  } */
 
   .side-item {
     padding: 10px;

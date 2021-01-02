@@ -15,13 +15,6 @@ import Volunteer from '../components/Resume/Volunteer';
 import { Component } from 'react';
 
 class Resume extends Component {
-
-    // openSidebar = () => {
-    //     // document.getElementById("my-sidebar").style.width = "250px";
-    //     document.getElementById("my-sidebar").style.display = "block";
-    //     console.log("funca!");
-    // }
-
     render() {
         return(
             <Container className="resume" fluid={true}>
@@ -30,7 +23,6 @@ class Resume extends Component {
                     <SideBar/>
                 </Col>
                 <Col md={9} sm={12} id="resume-wrapper">
-                    {/* <span className={"burger-btn"} onClick={this.openSidebar}>&equiv;</span> */}
                     <AboutMe />
                     <hr/>
                     <Experience />
