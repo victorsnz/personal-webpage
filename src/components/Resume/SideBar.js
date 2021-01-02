@@ -24,7 +24,7 @@ class SideBar extends Component {
 
     render() {
         return(
-            <Navbar expand={"lg"}>
+            <Navbar expand={"md"}>
                 <Navbar.Brand id={"my-brand"}>
                     Victor A. Sanchez
                 </Navbar.Brand>

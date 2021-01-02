@@ -2,6 +2,7 @@
 
 /* Sidebar */
 #sidebar-wrapper {
+  padding: 0 !important;
   background-color: var(--blacky);
 }
 
@@ -92,8 +93,6 @@
   background-image: var(--highlight-blue);
 }
 
-#sidebar-wrapper{ padding: 0 !important; }
-
 .scrollspy { 
   padding: 0px;
 }
@@ -175,7 +174,13 @@
   color: var(--blacky);
 }
 
-
+@media only screen and (max-width: 767px) {
+#my-brand {
+    display: initial;
+    text-transform: uppercase;
+    color: whitesmoke;
+  }
+}
 @media only screen and (max-width: 600px) {
 /*Negrito: #0d0d0d;*/
 
@@ -211,13 +216,13 @@
     height:130px;
   }
 
-  #my-brand {
+  /* #my-brand {
     display: initial;
     width: 75%;
     text-transform: uppercase;
     color: whitesmoke;
     text-align: right;
-  }
+  } */
 
   .side-item {
     padding: 10px;
