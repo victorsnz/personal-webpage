@@ -84,6 +84,14 @@ body {
   text-align: center;
 }
 
+#wallp {
+  color: teal !important;
+  font-weight: 600;
+}
+#wallp:hover {
+  text-decoration: none;
+  color: hotpink !important;
+}
 /* dividers */
 .divider1 {
   background-color: white;
@@ -305,16 +313,17 @@ body {
 
 /* Contact Section */
 
-#contact-link {
+.contact-link {
+  margin: 8px 0px;
+  padding: 8px 10px;
   border-width: 2px;
   border-style: solid;
   border-color: white;
-  padding: 8px 10px;
   color: white;
   text-transform: uppercase;
   font-weight: 600;
 }
-#contact-link:hover {
+.contact-link:hover {
   text-decoration: none;
   background-color: white;
   color: lightpink;
@@ -419,14 +428,6 @@ footer { color: whitesmoke; }
     margin-bottom: 0.75rem;
   }
 
-  #wallp {
-    color: teal !important;
-    font-weight: 600;
-  }
-  #wallp:hover {
-    text-decoration: none;
-    color: hotpink !important;
-  }
   /* About Section */
   #photo-wrapper { margin-bottom: 1rem; }
   .my-photo { height: 220px; }
@@ -439,6 +440,13 @@ footer { color: whitesmoke; }
 
   /*Projects*/
   #img-wrapper { margin-top: 1.5rem; }
+  
+  .my-card-img {
+    width: 90%;
+    height: 90%;
+    /* object-fit: none; */
+  }
+
   /*---------*/
   /* Section Contact */
   #lets-talk { margin: 5rem 0 2rem 0; }
