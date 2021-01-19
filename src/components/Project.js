@@ -4,7 +4,7 @@ import Card from './Card';
 
 import argenIpsum from '../assets/img/argen-ipsum.png';
 import coloresSenda from '../assets/img/colores-senda.png';
-import responsive from '../assets/img/responsive.jpg';
+import rps from '../assets/img/RPS.PNG';
 
 import { Container, Row } from 'react-bootstrap';
 
@@ -31,10 +31,10 @@ class Project extends React.Component {
                 },
                 {
                     id: 2,
-                    title: 'Responsive Web Example',
-                    subTitle: 'An example responsive website made it with Bootstrap (a long time ago)',
-                    imgSrc: responsive,
-                    link: 'https://victorsnz.github.io/ResponsiveWebExample',
+                    title: 'Rock, Paper, Scissor',
+                    subTitle: 'The classical rock, paper, scissor game made it using JavaScript',
+                    imgSrc: rps,
+                    link: 'https://victorsnz.github.io/rock-paper-scissor',
                     selected: false
                 }
             ]
@@ -49,7 +49,8 @@ class Project extends React.Component {
     render(){
         return(
             <Container fluid={true}>
-            <h1 className="my-title"><span className="highlight-blue">Some Projects</span></h1>
+            <h1 className={"my-title"}><span className="highlight-blue">Some Projects</span></h1>
+            <h3 className={"my-title"}>You can find more projects on my <a href="https://victorsnz.github.io/" target="_blank" rel="noreferrer" id={"wallp"}>Wall of Projects</a></h3>
                 <Row className="justify-content-around"> 
                     {this.makeItems(this.state.items)}
                 </Row>
